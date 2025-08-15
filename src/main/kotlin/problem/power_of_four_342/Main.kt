@@ -14,8 +14,8 @@ class Solution {
 }
 
 fun main() {
-    val solution: Solution = Solution()
-    var n = -1
+    val solution = Solution()
+    var n: Int
     n = 16
     println(String.format("%d? : %b", n, solution.isPowerOfFour(n)))
     n = 5
