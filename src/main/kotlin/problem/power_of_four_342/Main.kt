@@ -5,7 +5,7 @@ class Solution {
         if (n < 1) return false
         if (n == 1) return true
         var previous  = 1
-        for (i in 0 .. 15) {
+        (0 .. 15).forEach { i ->
             previous = previous shl 2
             if (previous == n) return true
         }
