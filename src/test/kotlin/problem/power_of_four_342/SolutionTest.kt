@@ -1,6 +1,7 @@
 package problem.power_of_four_342
 
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Test
 import org.ye.problem.power_of_four_342.Solution
 
