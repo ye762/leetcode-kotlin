@@ -41,5 +41,6 @@ bin/
 .DS_Store
 
 ### Gradle ###
-gradlew*
+gradlew
+gradlew.bat
 gradle/
